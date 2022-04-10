@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), transparent), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.latintimes.com%2Fsites%2Flatintimes.com%2Ffiles%2F2019%2F12%2F30%2Fnew-years-eve-fireworks.jpg&f=1&nofb=1');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+ h3{
+    font-size: 1.5rem;
+ }
+ h1{
+     font-size: 3rem;
+ }
+.time-container {
+    max-width: 50%;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 100px auto;
+     background-color: transparent;
+}
+.time-container div{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+.time-container div p {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+.time-container div span{
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+.big-text{
+    font-size: 5rem;
+}
