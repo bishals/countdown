@@ -1,4 +1,4 @@
-const newYear = '15 April 2022'
+const newYear = '1 Jan 2023'
 const d = document.querySelector('#day')
 const h = document.querySelector('#hour')
 const m = document.querySelector('#min')
